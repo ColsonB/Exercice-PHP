@@ -6,11 +6,14 @@
     
     <nav>
         <ul>
-            <li><a href="Exercice 1 PHP Partie 1.php">Exercice 1 PHP Partie 1</a></li>
-            <li><a href="Exercice 2.1 Partie 1.php">Exercice 2.1 PHP Partie 1</a></li>
-            <li><a href="Exercice 2.2 Partie 1.php">Exercice 2.2 PHP Partie 1</a></li>
-            <li><a href="Exercice 3 Partie 1.php">Exercice 3 PHP Partie 1</a></li>
-            <li><a href="Exercice 4 PHP Partie 1.php">Exercice 4 PHP Partie 1</a></li>
+            <li><a href="Exo1.php">Exo1</a></li>
+            <li><a href="Exo2.1.php">Exo2.1</a></li>
+            <li><a href="Exo2.2.php">Exo2.2</a></li>
+            <li><a href="Exo3.php">Exo3</a></li>
+            <li><a href="Exo4.php">Exo4</a></li>
+            <li><a href="Exo5.php">Exo5</a></li>
+            <li><a href="Exo6.php">Exo6</a></li>
+            <li><a href="Exo7.php">Exo7</a></li>
         </ul>
     </nav>
 
