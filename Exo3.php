@@ -29,8 +29,7 @@
     ?>
   
   <a href="index.html">Acceuil</a>
-  
-    </body>
 
+    </body>
 
 </html>

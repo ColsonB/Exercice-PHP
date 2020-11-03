@@ -1,6 +1,6 @@
 <html>
 
-<head></head>
+<head><title>Exercice 6</title></head>
 
 <body>
 
@@ -21,9 +21,5 @@ highlight_file(__FILE__);
 <a href="index.html">Acceuil</a>
 
 </body>
-
-
-
-
 
 </html>

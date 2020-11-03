@@ -29,9 +29,4 @@ highlight_file(__FILE__);
 
 </body>
 
-
-
-
-
-
 </html>

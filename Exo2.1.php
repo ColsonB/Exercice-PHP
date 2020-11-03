@@ -1,6 +1,6 @@
 <html>
-<head>
-</head>
+
+<head></head>
 
 <body>
 
@@ -15,10 +15,7 @@
     }
     echo "</tr></table>";
     
-    
     highlight_file(__FILE__);
-
-
 
 ?>
             
