@@ -1,8 +1,6 @@
 <html>
 
-<head>
-
-</head>
+<head><title>Exercie 1</title></head>
 
 <link rel="stylesheet" type="text/css" href="CSS PHP Partie 1.css">
 

@@ -1,6 +1,6 @@
 <html>
 
-<head></head>
+<head><title>E</head>
 
 <body>
 
