@@ -5,13 +5,16 @@
 <body>
 
 <form method="GET">
-    <input type="text" name="nom">
+    <input type="text" id="name" name="Nom">
     <input type="submit" value="Cliquer">
 </form>
 
 <?php
+if(isset($_GET['Nom'])){
+    echo "Votre nom est : " .$_GET['Nom'];
+}
 
-    echo $_GET['nom'];
+highlight_file(__FILE__);
 
 ?>
 

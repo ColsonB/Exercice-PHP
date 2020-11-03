@@ -5,7 +5,7 @@
 <body>
 
 
-<?phP
+<?php
    
     $Tableau[5] = 0;
     $i;

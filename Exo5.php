@@ -10,7 +10,12 @@
 </form>
 
 <?php  
+if(isset($_POST['nom'])){
     echo $_POST['nom'];
+}
+
+highlight_file(__FILE__);
+
 ?>
 
 </body> 

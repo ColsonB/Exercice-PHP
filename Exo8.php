@@ -8,9 +8,10 @@
     <input type="text" id="name" name="Nom">
     <input type="text" id="name" name="Prénom">
     <input type="submit" id="value" value="Cliquer">
-
+    <input type="submit" id="Supprimer la session" value="Supprimer la session">
 <?php   
    session_start();
+   
    if (isset($_SESSION['Nom'])){
    $_SESSION['Nom']=$value;
    }
@@ -18,11 +19,12 @@
    $_SESSION['Prénom']=$value;
    }
 
-   highlight_file(__FILE__);
+   session_destroy();
 
+   highlight_file(__FILE__);
+   
 ?>
 
-
-</body> 
+</body>
 
 </html>
