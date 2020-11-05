@@ -18,7 +18,7 @@ highlight_file(__FILE__);
 
 <head><title>Exercie 1</title></head>
 
-<link rel="stylesheet" type="text/css" href="CSS PHP Partie 1.css">
+<link rel="stylesheet" type="text/css" href="CSSPHPPartie1.css">
 
 <body>
 
