@@ -1,9 +1,5 @@
-<html>
-    <head></head>
 
-    <body>
-
-    <?php
+<?php
         $Tableau[0] = array ("Nom" => "Colson", "Prénom" => "Baptiste", "MDP" => "0000");
         $Tableau[1] = array ("Nom" => "Pesant", "Prénom" => "Valentin", "MDP" => "0000");
         $Tableau[2] = array ("Nom" => "Cauet",  "Prénom" =>  "Clément", "MDP" => "0000");
@@ -27,7 +23,13 @@
     highlight_file(__FILE__);
 
     ?>
-  
+
+<html>
+    
+    <head><title>Exercice 3</title></head>
+
+    <body>
+
   <a href="index.html">Acceuil</a>
 
     </body>

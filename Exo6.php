@@ -1,3 +1,13 @@
+
+<?php
+if(isset($_GET['Nom'])){
+    echo "Votre nom est : " .$_GET['Nom'];
+}
+
+highlight_file(__FILE__);
+
+?>
+
 <html>
 
 <head><title>Exercice 6</title></head>
@@ -8,15 +18,6 @@
     <input type="text" id="name" name="Nom">
     <input type="submit" value="Cliquer">
 </form>
-
-<?php
-if(isset($_GET['Nom'])){
-    echo "Votre nom est : " .$_GET['Nom'];
-}
-
-highlight_file(__FILE__);
-
-?>
 
 <a href="index.html">Acceuil</a>
 

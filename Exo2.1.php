@@ -1,9 +1,3 @@
-<html>
-
-<head></head>
-
-<body>
-
 
 <?php
    
@@ -18,6 +12,12 @@
     highlight_file(__FILE__);
 
 ?>
+
+<html>
+
+<head><title>Exercice 2.1</title></head>
+
+<body>
             
 <a href="index.html">Acceuil</a>
 

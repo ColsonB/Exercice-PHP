@@ -1,11 +1,3 @@
-<html>
-
-<head><title>Exercie 1</title></head>
-
-<link rel="stylesheet" type="text/css" href="CSS PHP Partie 1.css">
-
-<body>
-
 
 <?php
 
@@ -21,6 +13,14 @@ else {
 highlight_file(__FILE__);
 
 ?>
+
+<html>
+
+<head><title>Exercie 1</title></head>
+
+<link rel="stylesheet" type="text/css" href="CSS PHP Partie 1.css">
+
+<body>
 
 <a href="index.html">Acceuil</a>
 

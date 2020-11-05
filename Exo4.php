@@ -1,10 +1,4 @@
-<html>
 
-<head></head>
-
-
-<body>
- 
 <?php
 
 $A = 8;
@@ -36,6 +30,12 @@ highlight_file(__FILE__);
 
 ?>
 
+<html>
+
+<head><title>Exercice 4</title></head>
+
+<body>
+ 
 <a href="index.html">Acceuil</a>
 
 </body>

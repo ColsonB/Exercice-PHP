@@ -1,26 +1,30 @@
-<html>
-
-<head></head>
-
-<body>
-
-<form method="GET">
-    <input type="text" id="name" name="Nom">
-    <input type="text" id="name" name="Prénom">
-    <input type="submit" id="value" value="Cliquer">
 
 <?php   
+
    session_start();
-   if (isset($_SESSION['Nom'])){
-   $_SESSION['Nom']=$value;
+   if (isset($_POST['Nom'])) {
+      echo $_POST['Nom'];
    }
-   if (isset($_SESSION['Prénom'])){
-   $_SESSION['Prénom']=$value;
+
+   if (isset($_POST['Prénom'])) {
+       echo $_POST['Prénom'];
    }
+  
 
    highlight_file(__FILE__);
 
 ?>
+
+<html>
+
+<head><title>Exercice 7</title></head>
+
+<body>
+
+<form method="POST">
+    <input type="text" id="name" name="Nom">
+    <input type="text" id="name" name="Prénom">
+    <input type="submit" id="value" value="Cliquer">
 
 <a href="index.html">Acceuil</a>
 
