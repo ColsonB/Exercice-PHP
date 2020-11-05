@@ -17,8 +17,6 @@
 
 <body>
 
-<div>
-
     <?php 
 
     $Nom="Colson";
@@ -27,8 +25,6 @@
     Tableau ($Nom, $Prénom, $Age); 
     
     ?>
-
-</div>
 
 <a href="index.html">Acceuil</a>
 
