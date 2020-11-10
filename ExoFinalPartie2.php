@@ -1,38 +1,32 @@
-<?php
-
-Function Formulaire ($motdepasse) {
-
-   echo "<form>
-    <div class="form-example">
-      <label for="name">Identifiant</label>
-      <input type="text" name="name" id="name" required>
-    </div>
-    <div class="form-example">
-      <label for="name">Mot de passe</label>
-      <input type="name" name="name" id="name" required>
-    </div>
-    <div class="form-example">
-      <input type="submit" value="Valider">
-    </div>
-  </form>";
-
-  highlight_file(__FILE__);
-
-}
+<?php 
+    include("Formulaire.php");
 
 ?>
-
+<!DOCTYPE html>
 <html>
-
-<head><title>Exercice Final Partie 2</title></head>
-
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
 <body>
+    
+    <h1>Exercice Final Partie 2<h1>
+    
+    <?php
 
+        $MotDepass = "1234";
+        
+        if (afficheFormulaire($MotDepass) == "OK"){ 
+            ?>
+                <a href="http://google.com"> Google </a>
+            <?php
+        }
+    ?>
 
-<?php
-
-?>
-
-</body>
-
+    </body>
 </html>
+        
