@@ -27,7 +27,7 @@ highlight_file(__FILE__);
     $val1="18";
     $val2="15";
     $val3="13";
-    $moyenne = $val1+$val2+$val3/4;
+    $moyenne = $val1+$val2+$val3/3;
     Tableau($val1, $val2, $val3, $moyenne);
 
     ?>

@@ -1,5 +1,9 @@
 <?php
+Function Formulaire () {
 
+ echo <
+
+}
 ?>
 
 <html>
