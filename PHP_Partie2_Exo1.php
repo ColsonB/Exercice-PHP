@@ -1,5 +1,7 @@
-
 <?php
+
+include "../../Menu.php";
+Menu();
 
 Function Tableau () {
 
@@ -13,7 +15,10 @@ highlight_file(__FILE__);
 
 <html>
 
-<head><title>Exercice 1 Partie 2</title></head>
+<head>
+    <title>Exercice 1 Partie 2</title>
+    <link rel='stylesheet' type='text/css' href='../../Menu.css'>
+</head>
 
 <body>
 

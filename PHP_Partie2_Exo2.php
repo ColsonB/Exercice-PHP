@@ -1,5 +1,7 @@
-
 <?php
+
+include "../../Menu.php";
+Menu();
 
     Function Tableau ($Nom, $Prénom, $Age){
 
@@ -13,7 +15,10 @@
 
 <html>
 
-<head><title>Exercice 2 Partie 2</title></head>
+<head>
+    <title>Exercice 2 Partie 2</title>
+    <link rel='stylesheet' type='text/css' href='../../Menu.css'>
+</head>
 
 <body>
 

@@ -1,5 +1,8 @@
 <?php
 
+include "../../Menu.php";
+Menu();
+
 Function Tableau ($val1, $val2, $val3, $moyenne) {
 
     echo "<table border>
@@ -18,7 +21,10 @@ highlight_file(__FILE__);
 
 <html>
 
-<head><title>Exercice 3</title></head>
+<head>
+    <title>Exercice 3</title>
+    <link rel='stylesheet' type='text/css' href='../../Menu.css'>
+</head>
 
 <body>
 

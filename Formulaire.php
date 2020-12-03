@@ -9,13 +9,13 @@ Cette fonction veÃÅrifie que le mot de pass saisie dans le formulaire est le meÃ
         if(isset($_POST["mdp"])){
             echo "le mot de passe saisie est :  ".$_POST["mdp"];
             if($motDePass == $_POST["mdp"]){
-                echo "super c'est le bon";
+                echo "Mot de Passe Correct";
                 $afficheForm = "OK";
             }else{
-                echo " il n'est pas bon";
+                echo "Mot de Passe Incorrect";
             }
         }else{
-            echo "veuuilllez saisir formulare";
+            echo "veuilllez saisir formulare";
         }
 
         //j'affiche le formulaire uniquement si le mdp est pas saisie
@@ -31,7 +31,7 @@ Cette fonction veÃÅrifie que le mot de pass saisie dans le formulaire est le meÃ
                     <input type="password" name="mdp" id="zone2" required>
                 </div>
                 <div >
-                    <input type="submit" value="Connect toi!">
+                    <input type="submit" value="Connecte toi!">
                 </div>
                 </form>
             <?PHP

@@ -1,10 +1,15 @@
 <?php 
+
+include "../../Menu.php";
+Menu();
+
     include("Formulaire.php");
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel='stylesheet' type='text/css' href='../../Menu.css'>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
