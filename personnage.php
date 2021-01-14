@@ -1,5 +1,20 @@
 <?php
 
+    try{
+        $BDD= new PDO ('mysql:host=192.168.64.106;dbname=Exo5_Objet_Colson', 'colson', 'colson');
+    }
+    catch(Exception $e){
+        die('Erreur : ' . $e->getMessage());
+    }
+
+    $req = "SELECT ID FROM personnages";
+    $RequetStatement=$BDD->query($req);
+
+    while ($_ID = $RequetStatement->fetch(PDO::FETCH_ASSOC))
+    {
+        echo $_ID;
+    }
+
     Class Personnage
     {
         //Propriété
@@ -43,6 +58,7 @@
         {
             echo "<p>".$this->_Pseudo.", il vous reste ".$this->_Vie." point de vie ";
         }
+        
 
     }
 
