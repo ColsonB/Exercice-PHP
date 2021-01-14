@@ -8,16 +8,11 @@
         private $_User;
         
 
-        //Méthode
+        //Méthode on attend id du perso et l'objet pdo instancé
         public function __construct($ID, $pdo)
         {
-           $this->_ID= $ID;
-            try{
-                $this->_BDD= new PDO ('mysql:host=192.168.64.106;dbname=Exo5_Objet_Colson', 'colson', 'colson');
-            }
-            catch(Exception $e){
-                die('Erreur : ' . $e->getMessage());
-            }
+            $this->_ID= $ID;
+            $this->_BDD = $pdo;
             $req = "SELECT * FROM personnages WHERE ID = $this->_ID";            
             $this->_User= $this->_BDD->query($req)->fetch();
         }
