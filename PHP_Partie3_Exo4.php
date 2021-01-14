@@ -1,7 +1,8 @@
 <?php
     include "personnage.php";
-    $p1 = new Personnage(100,"Batman",30);
-    $p2 = new Personnage(100,"Cleme",50);
+    $BDD = new PDO ('mysql:host=192.168.64.106;dbname=Exo5_Objet_Colson', 'colson', 'colson');
+    $p1 = new Personnage(1, $pdo);
+    $p2 = new Personnage(2, $pdo);
     
 ?>
 
