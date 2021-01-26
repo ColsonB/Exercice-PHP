@@ -15,12 +15,12 @@
 
 <html>
 
-<head><title>Exercice 2.1</title></head>
+    <head>
+        <title>Exercice 2.1</title>
+    </head>
 
-<body>
-            
-<a href="index.html">Acceuil</a>
-
-</body>
+    <body> 
+        <a href="index.html">Acceuil</a>
+    </body>
 
 </html>

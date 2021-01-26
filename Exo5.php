@@ -10,17 +10,19 @@ highlight_file(__FILE__);
 
 <html>
 
-<head><title>Exercice 5</title></head>
+    <head>
+        <title>Exercice 5</title>
+    </head>
 
-<body>
+    <body>
 
-<form action ="" method="POST">
-    <input type="text" name="nom">
-    <input type="submit" value="Cliquer">
-</form>
+        <form action ="" method="POST">
+            <input type="text" name="nom">
+            <input type="submit" value="Cliquer">
+        </form>
 
-<a href="index.html">Acceuil</a>
-
-</body> 
+    <a href="index.html">Acceuil</a>
+    
+    </body> 
 
 </html>

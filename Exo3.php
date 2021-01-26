@@ -26,12 +26,12 @@
 
 <html>
     
-    <head><title>Exercice 3</title></head>
+    <head>
+        <title>Exercice 3</title>
+    </head>
 
     <body>
-
-  <a href="index.html">Acceuil</a>
-
+        <a href="index.html">Acceuil</a>
     </body>
 
 </html>

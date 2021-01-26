@@ -6,7 +6,7 @@
         private $_BDD;
         private $_ID;
         private $_User;
-    
+        
         //Méthode on attend id du perso et l'objet pdo instancé
         public function __construct($ID, $pdo)
         {
