@@ -15,7 +15,7 @@ catch(Exception $e){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exercice 4</title>
+        <title>Exercice 6</title>
     </head>
     <body>
         <?php
@@ -23,16 +23,14 @@ catch(Exception $e){
             $p2->affiche();
             $p3->affiche();
 
-            $p2->attaque($p1);
-            $p1->défense($p2);
             $p1->attaque($p3);
             $p3->attaque($p2);
-            
+
             $p1->affichePV();
             $p2->affichePV();
             $p3->affichePV();
 
-            $p2->Soin();
+            $p1->Soin();
         ?>
     </body>
 </html>
